@@ -402,7 +402,7 @@ export default function Home() {
           <i className="bi bi-telephone-fill"></i> +234 9039 482 875
         </p>
         <p>
-          <i className="bi bi-envelope-fill"></i> support@elitestore.com
+          <i className="bi bi-envelope-fill"></i> support@extremecomputers.com
         </p>
         <div>
           <a href="#" className="text-white me-2"><i className="bi bi-facebook"></i></a>
