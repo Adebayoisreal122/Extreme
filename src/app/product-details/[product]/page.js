@@ -31,14 +31,15 @@ const ProductDetails = ({ params }) => {
 
   return (
     <div
-      className="d-flex p-5 align-items-center justify-content-center"
+      className="d-flex p-1 align-items-center justify-content-center"
       style={{
+        padding: "50px",
         minHeight: "100vh",
         background: "linear-gradient(135deg, #74ebd5, #ACB6E5)",
       }}
     >
       <div
-        className="container p-5 w-80 py-5"
+        className="container p-4 py-5"
         style={{
           backgroundColor: "rgba(255, 255, 255, 0.9)",
           borderRadius: "15px",
