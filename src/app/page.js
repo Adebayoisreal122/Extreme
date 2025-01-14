@@ -30,7 +30,7 @@ export default function Home() {
           <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Shop</a>
+          <a className="nav-link" href="#products">Our Product</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">About Us</a>
@@ -71,14 +71,14 @@ export default function Home() {
         </p>
       </div>
     </div>
-        <a href="#features" className="btn mt-5 btnn btn-outline-warning btn-lg shadow">
+        <a href="#products" className="btn mt-5 btnn btn-outline-warning btn-lg shadow">
           Start Shopping now !
         </a>
   </div>
 </section> 
 
 
-<section className={`${styles.products} py-5`}>
+<section id="products" className={`${styles.products} py-5`}>
   <h1 className="text-center py-4" >Our Products</h1>
   <div className="container">
     <div className="row">
