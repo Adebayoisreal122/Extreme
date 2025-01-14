@@ -94,10 +94,12 @@ export default function Home() {
             <p className="card-text">
             Power up your productivity with sleek, high-performance laptops! Perfect for work, gaming, and everything in between.
             </p>
-            <a href="https://wa.me/2349155655600?text=Hello%20I%20am%20interested%20in%20your%20laptops." className="btn btn-warning"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          >Shop now</a>
+            <a
+  href={`/product-details/${encodeURIComponent('Laptops')}`}
+  className="btn btn-warning"
+>
+  Shop now
+</a>
           </div>
         </div>
       </div>
@@ -112,10 +114,12 @@ export default function Home() {
             <h3 className="card-title">Laptops Battery</h3>
             <p className="card-text"> Upgrade your system, boost your power! Top-quality hardware for faster, smoother computing.
             </p>
-            <a href="https://wa.me/2349155655600?text=Hello%20I%20am%20interested%20in%20your%20laptops." className="btn btn-warning"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          >Shop now</a>
+            <a
+  href={`/product-details/${encodeURIComponent('Batteries')}`}
+  className="btn btn-warning"
+>
+  Shop now
+</a>
           </div>
         </div>
       </div>
@@ -131,10 +135,12 @@ export default function Home() {
             <p className="card-text">
             Type smarter, not harder! Experience comfort and precision with our premium keyboards. Upgrade your typing game today!
             </p>
-            <a href="https://wa.me/2349155655600?text=Hello%20I%20am%20interested%20in%20buying%20keyboards." className="btn btn-warning"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          >Shop now</a>
+            <a
+  href={`/product-details/${encodeURIComponent('Keyboards')}`}
+  className="btn btn-warning"
+>
+  Shop now
+</a>
           </div>
         </div>
       </div>
@@ -150,10 +156,12 @@ export default function Home() {
             <p className="card-text">
             Upgrade your system, boost your power! Top-quality hardware for faster, smoother computing.
             </p>
-            <a href="https://wa.me/2349155655600?text=Hello.%20I%20am%20interested%20in%20Knowing%20more%20about%20the%20types%20of%20computer%20hardwares%20you%20have." className="btn btn-warning"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          >Shop now</a>
+            <a
+  href={`/product-details/${encodeURIComponent('Hardwares')}`}
+  className="btn btn-warning"
+>
+  Shop now
+</a>
           </div>
         </div>
       </div>
@@ -169,10 +177,12 @@ export default function Home() {
             <p className="card-text">
             Unlock your potential with cutting-edge software. From productivity to creativity, we’ve got you covered!
             </p>
-            <a href="https://wa.me/2349155655600?text=Hello.%20I%20am%20interested%20in%20Knowing%20more%20about%20the%20types%20of%20softwares%20you%20have." className="btn btn-warning"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          >Shop now</a>
+            <a
+  href={`/product-details/${encodeURIComponent('Softwares')}`}
+  className="btn btn-warning"
+>
+  Shop now
+</a>
           </div>
         </div>
       </div>
@@ -188,10 +198,12 @@ export default function Home() {
             <p className="card-text">
             Supercharge your PC with the latest chips and cards—experience performance like never before!
             </p>
-            <a href="https://wa.me/2349155655600?text=Hello.%20I%20am%20interested%20in%20Knowing%20more%20about%20your%20products." className="btn btn-warning"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          >Shop now</a>
+            <a
+  href={`/product-details/${encodeURIComponent('Chips')}`}
+  className="btn btn-warning"
+>
+  Shop now
+</a>
           </div>
         </div>
       </div>
@@ -208,10 +220,12 @@ export default function Home() {
             <p className="card-text">
             Smart, stylish, and innovative! Must-have gadgets that make life easier and more fun.
             </p>
-            <a href="https://wa.me/2349155655600?text=Hello.%20I%20am%20interested%20in%20Knowing%20more%20about%20your%20gadgets." className="btn btn-warning"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          >Shop now</a>
+            <a
+  href={`/product-details/${encodeURIComponent('Gadgets')}`}
+  className="btn btn-warning"
+>
+  Shop now
+</a>
           </div>
         </div>
       </div>
