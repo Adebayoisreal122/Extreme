@@ -38,9 +38,8 @@ const ProductDetails = ({ params }) => {
       }}
     >
       <div
-        className="container py-5"
+        className="container w-80-lg-sm py-5"
         style={{
-          maxWidth: "500px",
           backgroundColor: "rgba(255, 255, 255, 0.9)",
           borderRadius: "15px",
           boxShadow: "0 14px 8px rgba(0, 0, 0, 0.1)",
@@ -89,7 +88,7 @@ const ProductDetails = ({ params }) => {
               placeholder="Provide additional details..."
             />
           </div>
-          <button type="submit" className="btn btn-warning w-100">
+          <button type="submit" className="btn btn-outline-primary mx-auto d-flex justify-content-center ">
             Send to WhatsApp
           </button>
         </form>
