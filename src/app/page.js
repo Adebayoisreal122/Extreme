@@ -20,23 +20,23 @@ export default function Home() {
 
       <nav className="navbar navbar-expand-lg navbar-light  fixed-top py-3 shadow shadow-lg">
   <div className="container-fluid">
-  <a className={`${styles.logo} navbar-brand `}href="#">Extreme</a>
+  <a className={`${styles.logo}  navbar-brand `}href="#">Extreme</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+    <div className="collapse  navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav text-white me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
+          <a className="nav-link text-white fw-bold active" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#products">Our Product</a>
+          <a className="nav-link text-white fw-bold" href="#products">Our Product</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">About Us</a>
+          <a className="nav-link text-white fw-bold" href="#features">Our Services</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Contact</a>
+          <a className="nav-link text-white fw-bold" href="#contact">Contact Us</a>
         </li>
       </ul>
       <form className="d-flex">
@@ -360,13 +360,13 @@ export default function Home() {
 </section>
 
 
-<section className="container mt-5">
+<section id="contact"  className="container mt-5">
+  <h2>Contact Us</h2>
   <div className="row">
 <div>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.613719341745!2d4.2378223767953305!3d8.140748081372822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10370dd3375371c9%3A0x9900125926ed3f76!2sExtreme%20Computers%20And%20Technology!5e0!3m2!1sen!2sng!4v1736836401010!5m2!1sen!2sng" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 </div>
 <div>
-  <h2>Contact Us</h2>
 </div>
   </div>
 </section>
@@ -387,8 +387,8 @@ export default function Home() {
         <h5>Quick Links</h5>
         <ul className="list-unstyled">
           <li><a href="#" className="text-white text-decoration-none">Home</a></li>
-          <li><a href="#" className="text-white text-decoration-none">Shop</a></li>
-          <li><a href="#" className="text-white text-decoration-none">About Us</a></li>
+          <li><a href="#product" className="text-white text-decoration-none">Our Products</a></li>
+          <li><a href="#features" className="text-white text-decoration-none">Our Services</a></li>
           <li><a href="#" className="text-white text-decoration-none">Contact</a></li>
         </ul>
       </div>
@@ -396,10 +396,10 @@ export default function Home() {
       <div className="col-md-4 mb-4">
         <h5>Contact Us</h5>
         <p>
-          <i className="bi bi-geo-alt-fill"></i> 123 Tech Street, Tech City, TC 12345
+          <i className="bi bi-geo-alt-fill"></i> Opp. Ori oke Baptist Church, Apake, Ogbomoso, Oyo State
         </p>
         <p>
-          <i className="bi bi-telephone-fill"></i> +1 234 567 890
+          <i className="bi bi-telephone-fill"></i> +234 9039 482 875
         </p>
         <p>
           <i className="bi bi-envelope-fill"></i> support@elitestore.com
@@ -414,7 +414,7 @@ export default function Home() {
     </div>
     <hr className="bg-secondary" />
     <div className="text-center">
-      <p className="mb-0">&copy; 2025 Elite Store. All rights reserved.</p>
+      <p className="mb-0">&copy; 2025 Extreme Computers. All rights reserved.</p>
     </div>
   </div>
 </footer>
