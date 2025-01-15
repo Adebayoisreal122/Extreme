@@ -23,7 +23,7 @@ const ProductDetails = ({ params }) => {
       Additional Info: ${additionalInfo}
     `;
 
-    const whatsappLink = `https://wa.me/2349058599064?text=${encodeURIComponent(
+    const whatsappLink = `https://wa.me/2349068918017?text=${encodeURIComponent(
       whatsappMessage
     )}`;
     window.open(whatsappLink, "_blank");
